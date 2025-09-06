@@ -1,5 +1,5 @@
 - name: Create users
-#  hosts: myhosts
+  hosts: myhosts
   become: true
  
   roles:
