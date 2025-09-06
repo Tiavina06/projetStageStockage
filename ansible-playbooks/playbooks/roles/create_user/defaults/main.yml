@@ -1,7 +1,7 @@
 users:
-  - name: vary
-    password_plain: "ALICE"
+  - name: saholy
+    password_plain: "SAHOLY"
     salt: "SaltAlice"    
-  - name: mosary
-    password_plain: "BOB"
+  - name: gary
+    password_plain: "SAHOLY"
     salt: "SaltBob"

@@ -3,5 +3,5 @@
 # defaults file for del_user
 
 users:
-  - name: media
+  - name: gary
   - name: vary
