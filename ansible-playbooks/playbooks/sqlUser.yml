@@ -1,0 +1,6 @@
+- name: Create database user like root
+  hosts: myhosts 
+  become: true
+  
+  roles:
+      - SQLuser           

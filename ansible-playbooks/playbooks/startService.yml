@@ -1,0 +1,6 @@
+---
+- name: Mandefa service reseau
+  hosts: myhosts
+  become: true
+  roles:
+    - services

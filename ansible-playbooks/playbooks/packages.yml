@@ -1,0 +1,7 @@
+---
+- name: MAJ and installation
+  hosts: myhosts
+  become: true
+
+  roles:
+    - packages

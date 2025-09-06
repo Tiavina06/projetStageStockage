@@ -1,0 +1,6 @@
+- name: Create users
+  hosts: myhosts
+  become: true
+ 
+  roles:
+    - create_user

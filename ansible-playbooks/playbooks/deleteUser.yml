@@ -1,0 +1,6 @@
+- name: supprimer des users
+  hosts: myhosts
+  become: true
+
+  roles:
+    - del_user
