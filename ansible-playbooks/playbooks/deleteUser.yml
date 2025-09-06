@@ -1,5 +1,5 @@
 - name: supprimer des users
-#  hosts: myhosts
+  hosts: myhosts
   become: true
 
   roles:
