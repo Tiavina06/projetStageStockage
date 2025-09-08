@@ -1,10 +1,10 @@
 #SPDX-License-Identifier: MIT-0
 ---
 # tasks file for SQLuser
-- name: Installer passlib si absent
-  pipx:
-    name: passlib
-    state: present
+#- name: Installer passlib si absent
+ # pipx:
+ #   name: passlib
+#    state: present
 
 - name: Creat mysql users
   community.mysql.mysql_user:
