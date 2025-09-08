@@ -1,0 +1,13 @@
+#SPDX-License-Identifier: MIT-0
+---
+# defaults file for SQLuser
+sqlusers:
+  - name: kotobaba
+    mdp_plaintext: kotobaba
+    salt: koto2025
+    hash_mode: sha256
+  - name: baba
+    mdp_plaintext: koto
+    salt: baba2025
+    hash_mode: sha256
+
