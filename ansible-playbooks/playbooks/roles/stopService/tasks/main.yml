@@ -5,5 +5,5 @@
 - name: Gérer les services réseaux
   ansible.builtin.service:
     name: "{{item.name}}"
-    state: started
+    state: stopped
   loop: "{{ services }}"
