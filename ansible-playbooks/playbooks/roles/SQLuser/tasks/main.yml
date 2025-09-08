@@ -10,5 +10,6 @@
     host: localhost
     login_unix_socket: /run/mysqld/mysqld.sock   
  #   create_home: yes
+    column_case_sensitive: false
     update_password: on_create
   loop: "{{sqlusers}}"
