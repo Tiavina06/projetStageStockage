@@ -2,7 +2,7 @@
 ---
 # tasks file for SQLuser
 - name: Installer passlib si absent
-  pip:
+  pipx:
     name: passlib
     state: present
 
