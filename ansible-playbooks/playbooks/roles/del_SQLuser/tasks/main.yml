@@ -6,4 +6,5 @@
     host: localhost
     login_unix_socket: /run/mysqld/mysqld.sock   
     state: absent
+    column_case_sensitive: false
   loop: "{{sqlusers}}"
