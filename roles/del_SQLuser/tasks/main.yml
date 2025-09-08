@@ -1,0 +1,9 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name : kill  mysql users
+  community.mysql.mysql_user:
+    name: "{{ item.name}}"
+    host: localhost
+    login_unix_socket: /run/mysqld/mysqld.sock   
+    state: absent
+  loop: "{{sqlusers}}"
