@@ -5,8 +5,12 @@
  # pipx:
  #   name: passlib
 #    state: present
+- name: Mysql mila running
+  ansible.builtin.service:
+    name: mysql
+    state: started
 
-- name: Creat mysql users
+- name: Create mysql users
   community.mysql.mysql_user:
     name: "{{ item.name}}"
     password: >-

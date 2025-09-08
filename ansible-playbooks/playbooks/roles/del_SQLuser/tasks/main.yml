@@ -1,5 +1,10 @@
 #SPDX-License-Identifier: MIT-0
 ---
+- name: MySQL mila running
+  ansible.builtin.service:
+    name: mysql
+    state: started
+
 - name : kill  mysql users
   community.mysql.mysql_user:
     name: "{{ item.name}}"
