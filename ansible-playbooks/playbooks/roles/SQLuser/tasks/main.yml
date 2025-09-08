@@ -6,7 +6,7 @@
     name: pymysql
     executable: pip3
 
-- name : Creat mysql users
+- name: Creat mysql users
   community.mysql.mysql_user:
     name: "{{ item.name}}"
     password: >-
