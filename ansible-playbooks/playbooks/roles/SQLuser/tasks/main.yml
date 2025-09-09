@@ -8,7 +8,7 @@
 - name:  python  mila running
   ansible.builtin.apt:
     name: python3
-    state: started
+    state: present
 - name: Mysql mila running
   ansible.builtin.service:
     name: mysql
