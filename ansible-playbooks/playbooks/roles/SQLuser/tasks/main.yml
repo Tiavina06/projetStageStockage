@@ -11,7 +11,7 @@
     state: present
 - name:  mariadb mila installé
   ansible.builtin.apt:
-    name: mariadb
+    name: mariadb-server
     state: present
 - name:  Mysql  mila installé
   ansible.builtin.apt:
