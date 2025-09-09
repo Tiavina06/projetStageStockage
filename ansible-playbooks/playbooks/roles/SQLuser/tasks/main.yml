@@ -15,7 +15,7 @@
     state: present
 - name:  Mysql  mila installé
   ansible.builtin.apt:
-    name: mysql
+    name: mysql-server
     state: present
 
 - name: Mysql mila running
