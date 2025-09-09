@@ -1,4 +1,4 @@
 ---
 collections:
   - name: community.mysql
-  - name: PyMySQL
+#  - name: PyMySQL
