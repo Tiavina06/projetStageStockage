@@ -10,11 +10,11 @@
     name: python3
     state: present
     update_cache: yes
- - name: Installer pip3 
+- name: Installer pip3 
       ansible.builtin.apt:
         name: python3-pip
         state: present
- - name: Installer PyMySQL
+- name: Installer PyMySQL
       ansible.builtin.pip:
         name: PyMySQL
         state: present
