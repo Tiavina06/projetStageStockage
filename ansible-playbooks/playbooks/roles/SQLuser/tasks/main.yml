@@ -11,12 +11,12 @@
     state: present
 - name:  Mysql  mila installé
   ansible.builtin.apt:
-    name: mysql
+    name: mariadb105-server
     state: present
 
 - name: Mysql mila running
   ansible.builtin.service:
-    name: mysql
+    name: mariadb
     state: started
 
 - name: Create mysql users
