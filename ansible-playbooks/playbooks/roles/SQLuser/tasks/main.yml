@@ -6,7 +6,7 @@
  #   name: passlib
 #    state: present
 - name:  python  mila running
-  ansible.builtin.service:
+  ansible.builtin.apt:
     name: python3
     state: started
 - name: Mysql mila running
