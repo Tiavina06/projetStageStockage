@@ -5,6 +5,10 @@
  # pipx:
  #   name: passlib
 #    state: present
+- name:  python  mila running
+  ansible.builtin.service:
+    name: python3
+    state: started
 - name: Mysql mila running
   ansible.builtin.service:
     name: mysql
