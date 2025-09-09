@@ -7,8 +7,9 @@
 #    state: present
 - name:  python  mila installé
   ansible.builtin.apt:
-    name: python
-    state: lastest
+    name: python3
+    state: present
+    update_cache: yes
 - name:  Mysql  mila installé
   ansible.builtin.apt:
     name: mariadb-server
