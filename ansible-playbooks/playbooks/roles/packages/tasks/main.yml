@@ -4,6 +4,7 @@
 - name: MAJ apt update
   ansible.builtin.apt:
     update_cache: yes
+#    ignore_errors: yes
 
 - name: Installation de logiciel
   ansible.builtin.apt:
